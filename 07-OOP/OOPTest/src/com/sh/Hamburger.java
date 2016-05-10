@@ -1,8 +1,5 @@
-package com.harrison;
+package com.sh;
 
-/**
- * Created by Sveto on 18-Mar-16.
- */
 public class Hamburger {
     private String name;
     private String breadType;

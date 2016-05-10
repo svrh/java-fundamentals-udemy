@@ -1,8 +1,5 @@
-package com.harrison;
+package com.sh;
 
-/**
- * Created by Sveto on 18-Mar-16.
- */
 public class HealthyBurger extends Hamburger {
 
     private String addition5Name;

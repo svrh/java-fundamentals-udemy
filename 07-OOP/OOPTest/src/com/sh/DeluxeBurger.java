@@ -1,8 +1,5 @@
-package com.harrison;
+package com.sh;
 
-/**
- * Created by Sveto on 18-Mar-16.
- */
 public class DeluxeBurger extends Hamburger {
     public DeluxeBurger() {
         super("Deluxe Hamburger", "white", "beef & bacon", 8.50);
