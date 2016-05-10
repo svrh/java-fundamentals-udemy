@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OOPTest.iml" filepath="$PROJECT_DIR$/OOPTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPChallenge.iml" filepath="$PROJECT_DIR$/OOPChallenge.iml" />
     </modules>
   </component>
 </project>
