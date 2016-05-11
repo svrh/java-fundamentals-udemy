@@ -1,8 +1,5 @@
 package com.sh;
 
-/**
- * Created by Sveto on 16-Mar-16.
- */
 public class Account {
     private String number;
     private double balance;

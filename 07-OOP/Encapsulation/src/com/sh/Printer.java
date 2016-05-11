@@ -31,7 +31,7 @@ public class Printer {
         int pagesToPrint = pages;
         if (this.isDuplex) {
             pagesToPrint /= 2;
-            System.out.println("Printing in dupelx mode.");
+            System.out.println("Printing in duplex mode.");
         }
         this.printedPages += pagesToPrint;
         return pagesToPrint;
