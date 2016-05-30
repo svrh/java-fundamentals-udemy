@@ -114,21 +114,30 @@ public class Main {
         // show a message for each in the base class
         // Now create 3 sub classes for your favorite vehicles.
         // Override the appropriate methods to demonstrate polymorphism in use.
-        // put all classes in the one java file (this one).
+        // Put all classes in the one java file (this one).
 
-        Car car = new Car("base car", 4);
-        car.startEngine();
-        car.accelerate();
-        car.brake();
+        for (int i = 1; i < 6; i++) {
+            Car car = randomCar();
+            System.out.println("Car #" + i + ": " + car.getName() + "\n"
+                                + "Cylinders: " + car.getCylinders() + "\n");
+            car.startEngine();
+            car.accelerate();
+            car.brake();
+            System.out.println("\n");
+        }
 
-        Car tesla = new Tesla("Model S", 0);
-        tesla.startEngine();
-        tesla.accelerate();
-        tesla.brake();
+        }
 
-        Car nissan = new Nissan("GT-R", 6);
-        nissan.startEngine();
-        nissan.accelerate();
-        nissan.brake();
+    public static Car randomCar() {
+        int randomNumber = (int) (Math.random() * 3 + 1);
+        switch (randomNumber) {
+            case 1:
+                return new Tesla("Model S", 0);
+            case 2:
+                return new Porsche("911 Turbo S", 6);
+            case 3:
+                return new Nissan("GT-R", 6);
+        }
+        return null;
     }
 }
