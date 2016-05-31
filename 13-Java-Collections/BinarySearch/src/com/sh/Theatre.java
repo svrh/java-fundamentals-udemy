@@ -32,7 +32,7 @@ public class Theatre {
             return false;
         }
 
-//        Brute-force, really inefficient, when dealing with large lists
+//        Brute-force, really inefficient when dealing with large lists
 //        Seat requestedSeat = null;
 //        for (Seat seat : seats) {
 //            if (seat.getSeatNumber().equals(seatNum)) {
